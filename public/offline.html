@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+  <meta charset="utf-8" /><meta
+    name="viewport"
+    content="width=device-width,initial-scale=1"
+  /><meta name="theme-color" content="#071d49" /><title>
+    Sin conexión · Más Network 92.1 FM</title
+  ><style>
+    body {
+      margin: 0;
+      min-height: 100dvh;
+      background: #071d49;
+      color: #fff;
+      font-family: Verdana, sans-serif;
+      display: grid;
+      place-content: center;
+      text-align: center;
+      padding: 24px;
+      box-sizing: border-box;
+    }
+    img {
+      width: 180px;
+      margin: auto;
+      border-radius: 25px;
+    }
+    h1 {
+      font-size: 26px;
+      margin-top: 30px;
+    }
+    p {
+      color: #b6c9e7;
+      font-size: 13px;
+      line-height: 1.8;
+      max-width: 340px;
+    }
+    button {
+      border: 0;
+      background: #ffdc18;
+      color: #102956;
+      padding: 16px 25px;
+      border-radius: 9px;
+      font-weight: bold;
+      cursor: pointer;
+      margin: 18px auto 0;
+    }
+    small {
+      color: #8cabc9;
+      margin-top: 30px;
+      letter-spacing: 3px;
+      font-size: 9px;
+    }</style
+  ><img src="/img/icon-512.png" alt="Más Network 92.1 FM" />
+  <h1>Sin conexión</h1>
+  <p>
+    Tu radio te espera. Activa el Wi-Fi o los datos móviles para volver a
+    escuchar el Medio Palo.
+  </p>
+  <button onclick="location.replace('/')">Reintentar conexión</button
+  ><small>CIUDAD BOLÍVAR · VENEZUELA</small>
+  <script>
+    window.addEventListener('online', () => location.replace('/'))
+  </script>
+</html>
